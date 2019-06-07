@@ -1,0 +1,21 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": ["foo", "bar"],
+  "properties": {
+    "foo": {
+      "type": "string",
+      "title": "Foo",
+      "default": "",
+      "pattern": "^[a-zA-Z0-9]+$"
+    },
+    "bar": {
+      "type": "string",
+      "title": "Bar",
+      "default": "",
+      "pattern": "^[a-zA-Z0-9]+$"
+    }
+  }
+}
