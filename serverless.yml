@@ -1,5 +1,5 @@
 service:
-  name: poc-sls-typescript
+  name: sls-demo-typescript
 
 provider:
   name: aws
