@@ -4,7 +4,7 @@
   "description": "Serverless webpack example using Typescript",
   "main": "src/handler.ts",
   "scripts": {
-    "test": "jest"
+    "test": "eslint ./ && jest --coverage"
   },
   "dependencies": {
     "source-map-support": "^0.5.10"
