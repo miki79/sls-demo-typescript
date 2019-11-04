@@ -24,17 +24,12 @@ jobs:
         env:
           CI: true
       - name: Upload coverage
-        #if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/master'
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-          TEST_123: "ABC"
         run: |
           mkdir -p tmp/
           curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./tmp/cc-test-reporter
           chmod +x ./tmp/cc-test-reporter
           ./tmp/cc-test-reporter format-coverage -t lcov ./coverage/lcov.info
           ./tmp/cc-test-reporter upload-coverage
-          echo ${{ secrets.CC_TEST_REPORTER_ID }}
-          echo "MIKI"
-          echo $TEST_123
-          echo $CC_TEST_REPORT_ID
