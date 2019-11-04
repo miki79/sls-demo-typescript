@@ -34,7 +34,7 @@ jobs:
           chmod +x ./tmp/cc-test-reporter
           ./tmp/cc-test-reporter format-coverage -t lcov ./coverage/lcov.info
           ./tmp/cc-test-reporter upload-coverage
-          echo ${{ TEST_123 }}
+          echo ${{ secrets.CC_TEST_REPORTER_ID }}
           echo "MIKI"
           echo $TEST_123
           echo $CC_TEST_REPORT_ID
