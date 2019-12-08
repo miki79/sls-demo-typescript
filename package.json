@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Serverless webpack example using Typescript",
   "main": "src/handler.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miki79/sls-demo-typescript.git"
+  },
   "scripts": {
     "test": "eslint ./ && jest --coverage"
   },
