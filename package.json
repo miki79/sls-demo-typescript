@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.39",
-    "@types/jest": "^24.0.23",
+    "@types/jest": "^24.0.24",
     "@types/node": "^12.12.21",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
