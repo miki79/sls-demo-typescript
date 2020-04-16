@@ -30,7 +30,7 @@
     "serverless-plugin-optimize": "^4.1.4-rc.1",
     "serverless-webpack": "^5.3.1",
     "ts-jest": "^25.3.1",
-    "ts-loader": "^6.2.2",
+    "ts-loader": "^7.0.0",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1"
   },
