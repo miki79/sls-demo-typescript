@@ -11,7 +11,7 @@
     "test": "eslint ./ && jest --coverage"
   },
   "dependencies": {
-    "source-map-support": "^0.5.17"
+    "source-map-support": "^0.5.18"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.50",
