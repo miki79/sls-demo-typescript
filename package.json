@@ -23,7 +23,7 @@
     "eslint-plugin-jest": "^23.9.0",
     "jest": "^25.5.4",
     "minimist": "^1.2.5",
-    "serverless": "^1.69.0",
+    "serverless": "^1.70.0",
     "serverless-domain-manager": "^4.0.0",
     "serverless-dotenv-plugin": "^2.4.2",
     "serverless-offline": "^6.1.5",
