@@ -25,7 +25,7 @@
     "minimist": "^1.2.5",
     "serverless": "^1.76.1",
     "serverless-domain-manager": "^4.2.0",
-    "serverless-dotenv-plugin": "^2.4.2",
+    "serverless-dotenv-plugin": "^3.0.0",
     "serverless-offline": "^6.5.0",
     "serverless-plugin-optimize": "^4.1.4-rc.1",
     "serverless-webpack": "^5.3.3",
