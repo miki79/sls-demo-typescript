@@ -28,7 +28,7 @@
     "serverless-dotenv-plugin": "^3.0.0",
     "serverless-offline": "^6.5.0",
     "serverless-plugin-optimize": "^4.1.4-rc.1",
-    "serverless-webpack": "^5.3.3",
+    "serverless-webpack": "^5.3.4",
     "ts-jest": "^25.5.1",
     "ts-loader": "^8.0.2",
     "typescript": "^3.9.7",
