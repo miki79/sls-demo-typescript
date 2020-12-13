@@ -13,7 +13,7 @@ provider:
   deploymentBucket:
     name: ${ssm:/${self:provider.stage}/deploymentBucket}
     serverSideEncryption: AES256
-  versionFunctions: false  
+  versionFunctions: false
   apiGateway:
     minimumCompressionSize: 1024
     description: API Test Typescript
@@ -24,24 +24,23 @@ provider:
     restApi: true
 
 package:
-  individually: true    
+  individually: true
 
 plugins:
   - serverless-webpack
   - serverless-domain-manager
   - serverless-dotenv-plugin
-  - serverless-offline
   - serverless-plugin-optimize
 
-custom:     
+custom:
   customDomain:
     domainName: ${ssm:/${self:provider.stage}/domain}
     basePath: typeahead
     endpointType: regional
-    createRoute53Record: false  
-  dotenv:    
+    createRoute53Record: false
+  dotenv:
     include:
-      - AWS_XRAY_CONTEXT_MISSING  
+      - AWS_XRAY_CONTEXT_MISSING
 
 functions:
   getExample:
@@ -59,5 +58,5 @@ functions:
           path: example
           cors: true
           request:
-           schema:
+            schema:
               application/json: ${file(module/createExample.json)}
