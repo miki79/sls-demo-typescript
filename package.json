@@ -31,7 +31,7 @@
     "ts-jest": "^25.5.1",
     "ts-loader": "^8.0.15",
     "typescript": "^3.9.7",
-    "webpack": "^5.20.2"
+    "webpack": "^5.21.2"
   },
   "author": "Michele Giardi",
   "license": "MIT"
