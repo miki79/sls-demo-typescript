@@ -14,7 +14,7 @@
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.75",
+    "@types/aws-lambda": "^8.10.76",
     "@types/jest": "^26.0.22",
     "@types/node": "^15.0.0",
     "eslint": "^7.25.0",
